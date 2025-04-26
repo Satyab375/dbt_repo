@@ -1,0 +1,13 @@
+dbt_repo:
+  outputs:
+    dev:
+      account: UXCMRWI-UI26533
+      database: DBT_DEV
+      password: Oracle@7259045856
+      role: ACCOUNTADMIN
+      schema: BRONZE_LAYER
+      threads: 1
+      type: snowflake
+      user: SATYADBTDEMO
+      warehouse: COMPUTE_WH
+  target: dev
