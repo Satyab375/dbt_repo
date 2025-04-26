@@ -2,10 +2,10 @@ dbt_repo:
   outputs:
     dev:
       account: UXCMRWI-UI26533
-      database: DBT_DEV
+      database: DEV
       password: Oracle@7259045856
       role: ACCOUNTADMIN
-      schema: BRONZE_LAYER
+      schema: BRONZE_AIRBNB
       threads: 1
       type: snowflake
       user: SATYADBTDEMO
